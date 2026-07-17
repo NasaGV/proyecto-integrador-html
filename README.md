@@ -9,8 +9,6 @@ Principios de la Web + HTML5 Semántico
 
 ## Archivos
 
-- index.html
-
 ## Validación
 
 <img width="1917" height="953" alt="image" src="https://github.com/user-attachments/assets/2c58f400-d500-4fd3-940c-063d2edcd824" />
