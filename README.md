@@ -43,11 +43,11 @@ proyecto-integrador-html
 
 ### Vista móvil (320 px)
 
-![Vista móvil](capturas/responsive%20320.png)
+![Vista móvil](capturas/Responsive 1280 x 720.png)
 
 ### Vista escritorio (1280 px)
 
-![Vista escritorio](capturas/responsive%201280.png)
+![Vista escritorio](capturas/Responsive 320 x 640.png)
 
 ---
 
