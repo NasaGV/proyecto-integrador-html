@@ -5,65 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Principios de la Web + HTML5 Semántico</title>
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Principios de la Web + HTML5 Semántico</h1>
+    <header class="header">
+        <h1 class="header__title">Principios de la Web + HTML5 Semántico</h1>
 
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#html5">HTML5</a></li>
-                <li><a href="#semantica">Semántica</a></li>
-                <li><a href="#accesibilidad">Accesibilidad</a></li>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#inicio">Inicio</a></li>
+                <li class="nav__item"><a class="nav__link" href="#html5">HTML5</a></li>
+                <li class="nav__item"><a class="nav__link" href="#semantica">Semántica</a></li>
+                <li class="nav__item"><a class="nav__link" href="#accesibilidad">Accesibilidad</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="main">
 
-        <section id="inicio">
-            <h2>Bienvenido</h2>
-            <p>
+        <section id="inicio" class="hero">
+            <h2 class="hero__title">Bienvenido</h2>
+
+            <p class="hero__text">
                 Este proyecto tiene como objetivo explicar los principios de la Web y la importancia
                 de utilizar HTML5 semántico para crear páginas bien estructuradas y accesibles.
             </p>
         </section>
 
-        <section>
-            <h2>Temas principales</h2>
+        <section class="cards">
 
-            <article id="html5">
-                <h3>HTML5</h3>
-                <p>
-                    HTML5 permite estructurar el contenido de una página web utilizando etiquetas
-                    que describen claramente la función de cada elemento.
-                </p>
-            </article>
+            <h2 class="cards__heading">Temas principales</h2>
 
-            <article id="semantica">
-                <h3>Etiquetas semánticas</h3>
-                <p>
-                    Las etiquetas semánticas facilitan la comprensión del código para los
-                    desarrolladores, los navegadores y las tecnologías de asistencia.
-                </p>
-            </article>
+            <div class="cards__container">
 
-            <article id="accesibilidad">
-                <h3>Accesibilidad</h3>
-                <p>
-                    Aplicar buenas prácticas de accesibilidad permite que cualquier persona pueda
-                    navegar e interactuar con una página web de forma adecuada.
-                </p>
-            </article>
+                <article id="html5" class="card">
+                    <h3 class="card__title">HTML5</h3>
+
+                    <p class="card__text">
+                        HTML5 permite estructurar el contenido de una página web utilizando etiquetas
+                        que describen claramente la función de cada elemento.
+                    </p>
+                </article>
+
+                <article id="semantica" class="card">
+                    <h3 class="card__title">Etiquetas semánticas</h3>
+
+                    <p class="card__text">
+                        Las etiquetas semánticas facilitan la comprensión del código para los
+                        desarrolladores, los navegadores y las tecnologías de asistencia.
+                    </p>
+                </article>
+
+                <article id="accesibilidad" class="card card--featured">
+                    <h3 class="card__title">Accesibilidad</h3>
+
+                    <p class="card__text">
+                        Aplicar buenas prácticas de accesibilidad permite que cualquier persona pueda
+                        navegar e interactuar con una página web de forma adecuada.
+                    </p>
+                </article>
+
+            </div>
 
         </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>© 2026 - Principios de la Web + HTML5 Semántico</p>
         <p>Autor: Gabriel Villanueva</p>
         <p>Contacto: gabriel@gmail.com</p>
