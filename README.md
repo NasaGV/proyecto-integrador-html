@@ -1,12 +1,53 @@
-# Proyecto Integrador HTML
+# Proyecto Integrador HTML y CSS
 
-**Nombre:** Gabriel Enrique Villanueva Hernandez
+## Información del estudiante
 
-**Carne:** 0905-23-21427
+- **Nombre:** Gabriel Villanueva
+- **Carné:** 0905-23-21427
 
-**Nombre del proyecto:**
-Principios de la Web + HTML5 Semántico
+---
+## Nombre del proyecto
 
-## Validación
+**Principios de la Web + HTML5 Semántico**
 
-<img width="1917" height="953" alt="image" src="https://github.com/user-attachments/assets/2c58f400-d500-4fd3-940c-063d2edcd824" />
+Este proyecto tiene como objetivo aplicar los conocimientos adquiridos sobre HTML5 semántico y CSS, utilizando una estructura organizada, accesible y responsive.
+
+---
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- CSS Grid
+- Flexbox
+- Responsive Design (Mobile First)
+
+---
+
+## Estructura del proyecto
+
+```text
+proyecto-integrador-html
+│
+├── index.html
+├── styles.css
+├── README.md
+└── capturas/
+    ├── responsive 320.png
+    └── responsive 1280.png
+```
+
+---
+
+## Capturas del proyecto
+
+### Vista móvil (320 px)
+
+![Vista móvil](capturas/responsive%20320.png)
+
+### Vista escritorio (1280 px)
+
+![Vista escritorio](capturas/responsive%201280.png)
+
+---
+
